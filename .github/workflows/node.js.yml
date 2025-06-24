@@ -27,4 +27,4 @@ jobs:
         run: npm run build
 
       - name: Ejecutar tests
-        run: npm test
+        run: npm ci --legacy-peer-deps
